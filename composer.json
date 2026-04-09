@@ -1,0 +1,32 @@
+{
+    "name": "vicistack/sms-campaign-call-center",
+    "description": "SMS Campaigns for Call Centers: Compliance, Cadence, and What Actually Converts",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "vicidial",
+        "asterisk",
+        "call-center",
+        "voip",
+        "predictive-dialer",
+        "sms",
+        "campaign",
+        "call",
+        "center"
+    ],
+    "homepage": "https://vicistack.com/blog/sms-campaign-call-center/",
+    "authors": [
+        {
+            "name": "ViciStack",
+            "homepage": "https://vicistack.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "ViciStack\\SmsCampaignCallCenter\\": "src/"
+        }
+    }
+}
